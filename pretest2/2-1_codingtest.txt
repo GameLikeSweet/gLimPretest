@@ -1,0 +1,16 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(int n, int k) {
+    int answer = 0;
+    
+    int t = n/10;
+    
+    if (k < t) answer = n*12000;
+    else answer = n*12000+(k-t)*2000;
+    
+    
+    return answer;
+}
