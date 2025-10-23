@@ -1,0 +1,5 @@
+MFCGlimpretest/.vs/
+MFCGlimpretest/MFCGlimpretest/Debug/
+*.VC.db
+*.ipch
+*.pch
